@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+	float sayi=1;
+	float sayac=0;
+	float al=0;
+	while(sayi!=0)
+	{
+		printf("sayi gir: ");
+		scanf("%f",&sayi);
+		sayac=sayac+sayi;
+		al=al+1;
+	}
+	float ortalama=sayac/(al-1);
+	printf("ortalama: %.2f",ortalama);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	return 0;
+} 
